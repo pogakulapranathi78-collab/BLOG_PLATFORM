@@ -1,0 +1,133 @@
+body {
+
+    font-family: Arial;
+
+    background: #f5f5f5;
+
+}
+
+.container {
+
+    width: 400px;
+
+    margin: 50px auto;
+
+    background: white;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+}
+
+h1 {
+
+    text-align: center;
+
+}
+
+input,
+textarea {
+
+    width: 100%;
+
+    padding: 10px;
+
+    margin-top: 10px;
+
+    box-sizing: border-box;
+
+}
+
+button {
+
+    width: 100%;
+
+    padding: 10px;
+
+    margin-top: 15px;
+
+    border: none;
+
+    background: blue;
+
+    color: white;
+
+    cursor: pointer;
+
+}
+
+.post {
+
+    background: #ffffff;
+
+    padding: 15px;
+
+    margin-top: 20px;
+
+    border-radius: 10px;
+
+    border: 1px solid #ddd;
+
+}
+
+.comment-box {
+
+    margin-top: 10px;
+
+    display: flex;
+
+    gap: 10px;
+
+}
+
+.comment-input {
+
+    width: 70%;
+
+    padding: 8px;
+
+}
+
+.comment-btn {
+
+    width: 30%;
+
+    padding: 8px;
+
+    background: green;
+
+    color: white;
+
+    border: none;
+
+    cursor: pointer;
+
+}
+
+.comment {
+
+    background: #f0f0f0;
+
+    padding: 8px;
+
+    margin-top: 5px;
+
+    border-radius: 5px;
+
+}
+.edit-btn {
+
+    background: orange;
+
+    margin-top: 10px;
+
+}
+
+.delete-btn {
+
+    background: red;
+
+    margin-top: 10px;
+
+}
